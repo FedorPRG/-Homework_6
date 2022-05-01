@@ -35,6 +35,7 @@ string a = Console.ReadLine()!;
 char [] separators=new char[] {' ','.',','};
 
 string[] arrayString = a.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+
 PrintarrayString(arrayString);//Проверка записи строкового массива
 
 int[] arrayInt = new int[arrayString.Length];
